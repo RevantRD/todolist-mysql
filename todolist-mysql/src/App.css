@@ -1,0 +1,67 @@
+@media(max-width:575px){
+    body{
+        background-image: url('https://images.pexels.com/photos/3408552/pexels-photo-3408552.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') ;
+        background-size: cover;
+    }
+    .glass-effect{
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+    }
+    .tasks{
+        margin-left: -10% !important;
+        margin-right: -10% !important;
+    }
+}
+
+.glass-effect{
+    backdrop-filter: blur(4px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.tasks{
+    padding-top: 10px;
+    
+    padding-left: 10%;
+    background-color: #ffd6a4;
+    border-radius: 15px;
+}
+.tasks:hover{
+    background-color: #ffbf70;
+}
+.del-btn{
+    top:10px ;
+    padding-right: 25px ;
+}
+.del-btn:hover{
+    transform: scale(1.5);
+    padding-left: 30px;
+    
+}
+.glass-box{
+    background-color: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(4px) saturate(180%);
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.glass-box::placeholder{
+    text-align: center;
+}
+.title-text{
+    text-shadow: 1px 3px 5px  black ;
+}
+.submit-btn{
+    background-color: #ffd6a4;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transition: 0.3s;
+}
+.submit-btn:hover{
+    background-color: #ffbf70;
+}
